@@ -1,0 +1,27 @@
+mkdir node_project
+cd node_project
+vim package.json-->Package.json is uploaded 
+vim app.js -->app.js is uploaded
+mkdir node-express
+npm install -g express-generator
+export PATH=$PATH:/usr/local/share/npm/bin/express
+npm install
+npm start
+
+mkdir views
+cd views
+vim index.html -->index.html is uploaded
+mkdir views/css
+cd css
+vim styles.css
+vim styles.css --> styles.css is uploaded
+
+node app.js--> to run the application
+
+docker build -t arjitks77/nodejs-image-demo .
+docker pull arjitks77/nodejs-image-demo
+
+
+
+
+
